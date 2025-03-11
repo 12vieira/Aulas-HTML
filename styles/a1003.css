@@ -1,0 +1,25 @@
+h1{
+    background-color: chartreuse;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    background-color: aqua;
+}
+a{
+    background-color:darkgreen;
+    color:rgb(194, 200, 9);
+    text-align: right;
+    font-weight: bold;
+}
+ul{
+    background-color: blueviolet;
+    text-align: center;
+}
+li{
+    color: white;
+}
+.eu{
+    background-color:blue;
+    color: white;
+}

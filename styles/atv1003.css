@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+p{
+    background-color: brown;
+    border-color: blue;
+}
