@@ -5,5 +5,28 @@ h1{
 }
 p{
     background-color: brown;
-    border-color: blue;
+    color: salmon;
+    /*padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+             top righ bott left*/
+    padding: 8px; /*16px 32px 64px; */
+
+    /* para tamanho, usa-se Xem, ao invés de pixel*/
+    /*               1em = 16px, 
+    o resto acha com regra de 3*/
+    border-top: 10px double yellow;
+    border-bottom: 10px dashed green;
+    border-left: 10px solid blue;
+    border-right: 10px dotted white;
+    border-radius: 10px;
+
+    margin: 25px 150px;
+
+    width: 400px ;
+    /*pode ser usar o VW = largura da tela*/
+    
+    height: 150 px;
+    /*pode ser usar o VH = altura da tela*/
 }
