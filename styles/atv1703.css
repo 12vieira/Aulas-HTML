@@ -37,20 +37,24 @@ a{
     color: white;
     border-radius: 7px;
 }
-a:hover{
+a:hover{/*enquanto o mouse estiver por cima*/
     color: white;
     background-color:#3c3129 ;
     transition: 250ms;
+    scale: 1.2;/*aumenta o objeto*/
+}
+a:active{/*mexe quando clicar*/
+    background: blue;;
 }
 ul{
-    list-style-type: none;
+    list-style-type: none;/*mexe nas bolas da lista*/
     padding: 25px;
     text-align: center;
     background-color:white ;
 }
 li{
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
+    display: inline-block; /*horizontaliza opções*/
     margin-left: 5px;
     padding-left: 25px;
 }

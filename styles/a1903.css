@@ -1,0 +1,12 @@
+/* AGRUPAMENTO: personaliza todas as tags*/
+h1,p{
+    font-style: italic;
+}
+/*IRMÃO GERAL: personaliza as tags após a '~' */
+h2 ~ p{
+    background-color: aqua;
+}
+/*IRMÃO ADJACENTE: personaliza a tag imediatamente após */
+p + h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
