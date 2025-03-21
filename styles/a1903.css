@@ -17,6 +17,7 @@ body{
     background-size: cover;
     /* background-size: contain; */
     background-attachment: scroll;
+    /*mantendo a imagem visivel na tela sempre*/
     margin: 200px;
 
 }
