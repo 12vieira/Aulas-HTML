@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container{
+    background-color: burlywood;
+    height: 450px;
+
+    display: flex;
+    
+    /* mudança em relação ao eixo X
+    justify-content: start, center, end;
+    justify-content: space-around;
+    justify-content: space-between;*/
+    justify-content: space-evenly;
+    /* mudança em relação ao eixo Y
+    align-items: start;
+    align-items: end;
+    align-items: baseline;*/
+    align-items: center;
+    /*coluna ou linha
+    flex-direction: row; 
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;*/
+    /*quebra da linha
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;*/
+    /* ordena os itens, mas deve ser aplicado nos itens como class
+    order: 0;*/
+    /* aumenta os itens, mas deve ser aplicado nos itens como class
+    flex-grow: 0;*/
+    /* diminui os itens, mas deve ser aplicado nos itens como class
+    flex-shrink: 0;*/
+    /* junção do grow com shrink, mas aplicado nos itens como class
+    flex-basis: 0;*/
+
+}
+.item{
+    background-color: white;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    
+    /*flex-grow: 0;
+    flex-shrink: 5;
+    flex-basis: 1;*/
+}
