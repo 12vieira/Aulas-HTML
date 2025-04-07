@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(90deg,#1e9e9e, #ff00ff, #5e15a3, #04c104);
+    background-size: 400% 400%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+    border: 2px solid #04c104;
+}
+
+/* textarea{
+    resize: none;
+} */
+
