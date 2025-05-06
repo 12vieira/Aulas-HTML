@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Bar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success mb-5">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-boxes me-1"></i>Vieira Games</a></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Preços</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    
+    <div class="container border border-secondary-subtle rounded shadow-lg p-4 col-3">
+        <form action="" class="container-fluid">
+            <h4 class="display-6 text-success">Cadastro de Usuário</h4>
+            <div class="mb-3">
+                <div class="col">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="text" name="" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="senha" class="form-label">Senha</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" name="" class="form-check-input">
+                <label for="" class="form-check-label">Lembrar dados</label>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <button class="btn btn-success">
+                        Entrar
+                    </button>
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-outline-secondary">
+                        cadastrar
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer class="bg-success text-white text-center py-3 mt-5 fixed-bottom">
+        &copy; 2025 Vieira Games. Todos os direitos reservados.
+    </footer>
+
+
+</body>
+</html>
